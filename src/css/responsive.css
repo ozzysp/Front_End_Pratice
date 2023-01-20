@@ -1,0 +1,36 @@
+@media (max-width: 1200px) {
+    body {background-color: blueviolet;}
+}
+
+.video {
+    #display: none;
+}
+
+.container {
+    flex-wrap:  wrap;
+    justify-content: center;
+    height: auto;
+    gap: 30px;
+}
+
+.container .mario {
+    max-width: 50%;
+}
+
+.container.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .description {
+    max-width:  50%;
+}
+
+.container .trailer-btn {
+    background-color: rgb(18, 131, 135);
+}
+
+@media (max-width: 500px) {
+
+}

@@ -8,7 +8,6 @@ function alternateModal() {
     modal.classList.toggle("opened");
 }
 
-
 trailerBtn.addEventListener("click", () => { 
     alternateModal();
     video.setAttribute("src" , videoLink);
